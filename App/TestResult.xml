@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="DotNet.Docker.dll" fullname="/Users/sandhyamanoj/workspace/SampleDocker/App/bin/Debug/net6.0/DotNet.Docker.dll" testcasecount="1" result="Passed" start-time="2022-08-10T16:31:01.2114240Z" end-time="2022-08-10T16:31:07.3241590Z" duration="6.112403" total="1" passed="1" failed="0" inconclusive="0" skipped="0" warnings="0" asserts="1" random-seed="2045350940">
+  <command-line><![CDATA[/Users/sandhyamanoj/workspace/SampleDocker/App/bin/Debug/net6.0/DotNet.Docker.dll]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1002" name="DotNet.Docker.dll" fullname="/Users/sandhyamanoj/workspace/SampleDocker/App/bin/Debug/net6.0/DotNet.Docker.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-08-10T16:31:01.2114240Z" end-time="2022-08-10T16:31:07.3241590Z" duration="6.112403" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.3.0" clr-version="6.0.7" os-version="Darwin 19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64" platform="Unix" cwd="/Users/sandhyamanoj/workspace/SampleDocker/App" machine-name="Sandhya" user="sandhyamanoj" user-domain="Sandhya" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="/Users/sandhyamanoj/workspace/SampleDocker/App" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="22891" />
+      <property name="_APPDOMAIN" value="DotNet.Docker" />
+    </properties>
+    <test-suite type="TestSuite" id="1003" name="Test" fullname="Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-08-10T16:31:01.2259850Z" end-time="2022-08-10T16:31:07.3241250Z" duration="6.097957" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="1000" name="TestGoogle" fullname="Test.TestGoogle" classname="Test.TestGoogle" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-08-10T16:31:01.2297870Z" end-time="2022-08-10T16:31:07.3235330Z" duration="6.093563" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="1001" name="Test" fullname="Test.TestGoogle.Test" methodname="Test" classname="Test.TestGoogle" runstate="Runnable" seed="1954486897" result="Passed" start-time="2022-08-10T16:31:01.2363610Z" end-time="2022-08-10T16:31:07.3071100Z" duration="6.070706" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
