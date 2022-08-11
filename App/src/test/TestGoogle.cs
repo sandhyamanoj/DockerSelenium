@@ -26,9 +26,7 @@ namespace Test
             options.AddArgument("--disable-gpu") ;
             options.AddArgument("start-maximized"); 
             options.AddArgument("disable-infobars");
-            ChromeDriverService service = ChromeDriverService.CreateDefaultService(@"/app/chrome/");
-            service.EnableVerboseLogging = false;
-            driver=new ChromeDriver(service, options); 
+            driver=new ChromeDriver(options);
             pageObj=new PageObject(driver);
         }
 
